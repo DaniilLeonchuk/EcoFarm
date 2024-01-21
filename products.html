@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFarm - Продукция</title>
+    <link rel="stylesheet" href="css/style-products.css">
+    <link rel="icon" href="img/Логотип_для_title.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="main">
+
+            <div class="logo-main">
+      
+              <h1 class="logo"><a href="index.html">EcoFarm</a></h1>
+              <img src="img/Логотип.svg" alt="Логотип" class="logo-img">
+          
+        </div>
+           
+            <ul class="menu"> 
+              
+              <li class="menu-li"><a href="index.html" class="menu-a">Главная</a></li>
+              <li class="menu-li"><a href="about.html" class="menu-a">О нас</a></li>
+              <li class="menu-li"><a href="products.html" class="menu-a-active">Продукция</a></li>
+              <li class="menu-li"><a href="contacts.html" class="menu-a">Контакты</a></li>
+            </ul>
+      
+            
+          </div>
+          </div>
+    </header>
+
+
+
+
+  
+
+
+<section class="section">
+
+
+  <div class="container">
+
+
+    <div class="product-row">
+
+
+                  <div class="product">
+                    <img class="image" src="img/Пшеница.png" alt="Фотография Пшеница" onclick="Zoom(this)">
+                        <p class="vegetable-history">Пшеница - один из основных зерновых культур, широко используемый для производства хлеба, мучных изделий и кормов для животных.</p>
+                            <p class="price">Цена за килограмм: 100 рублей</p>
+                            <button class="btn" data-path="form-popup-1">Заказать</button>
+                           
+                          
+                          
+                            <div class="modals">
+                              <div class="modal-overlay">
+                                <div class="modal modal--1" data-target="form-popup-1">
+                                 
+                                        <form action="1">
+                                          <input type="text" placeholder="Ваше имя" >
+                                          <input type="text" placeholder="Ваш телефон">
+                                          <input type="text" placeholder="Ваш адрес" >
+                                          <input type="number"  id="square-input" class="weight" >
+                                          <p>Цена за 1 кг: 100 рублей</p>
+                                          <button type="button" id="calculate_price">Рассчитать цену</button>
+                                          <p>Итого: <span id="total_price">0.00</span> рублей</p>
+                                          <button  type="button" id="pop_up_close_1">Заказать</button>
+
+
+
+
+                                       
+                                        
+                                        </form>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+
+
+
+                  <div class="product">
+                    <img class="image" src="img/Кукуруза.png" alt="Фотография Кукуруза" onclick="Zoom(this)">
+                        <p class="vegetable-history">Кукуруза - популярная зерновая культура, широко используемая в пищевой промышленности, кормовом производстве, а также для получения энергии и других целей.</p>
+                            <p class="price">Цена за килограмм: 80 рублей</p>
+                            <button class="btn" data-path="form-popup-2">Заказать</button>
+                           
+                          
+                          
+                            <div class="modals">
+                              <div class="modal-overlay">
+                                <div class="modal modal--2" data-target="form-popup-2">
+                                  
+                                        <form action="2">
+                                          <input type="text" placeholder="Ваше имя" >
+                                          <input type="text" placeholder="Ваш телефон">
+                                          <input type="text" placeholder="Ваш адрес" >
+                                          <input type="number"  id="square-input" class="weight" >
+                                          <p>Цена за 1 кг: 80 рублей</p>
+                                          <button type="button" id="calculate_price">Рассчитать цену</button>
+                                          <p>Итого: <span id="total_price">0.00</span> рублей</p>
+                                          <button  type="button" id="pop_up_close_1">Заказать</button>
+                                        </form>
+                                </div>
+                                
+                              </div>
+                            </div>
+                                
+                    </div>
+  
+                  <div class="product">
+                    <img class="image" src="img/Ячмень.png" alt="Фотография Ячмень" onclick="Zoom(this)">
+                        <p class="vegetable-history">Ячмень - распространенная зерновая культура, используемая в пищевой промышленности, производстве пива и кормов для скота.                        </p>
+                            <p class="price">Цена за килограмм: 70 рублей</p>
+                            <button class="btn" data-path="form-popup-3">Заказать</button>
+                           
+                          
+                          
+                            <div class="modals">
+                              <div class="modal-overlay">
+                                <div class="modal modal--3" data-target="form-popup-3">
+                                 
+                                        <form action="3">
+                                          <input type="text" placeholder="Ваше имя" >
+                                          <input type="text" placeholder="Ваш телефон">
+                                          <input type="text" placeholder="Ваш адрес" >
+                                          <input type="number" id="square-input" class="weight" >
+                                          <p>Цена за 1 кг: 70 рублей</p>
+                                          <button type="button" id="calculate_price">Рассчитать цену</button>
+                                          <p>Итого: <span id="total_price">0.00</span> рублей</p>
+                                          <button  type="button" id="pop_up_close_1">Заказать</button>
+                                        </form>
+                                </div>
+                                
+                              </div>
+                            </div>
+                                
+                    </div>
+  
+                 <div class="product">
+                    <img class="image" src="img/Овёс.png" alt="Фотография овес" onclick="Zoom(this)">
+                        <p class="vegetable-history">Овес - ценная зерновая культура, богатая питательными веществами, широко применяемая для здорового питания и в качестве корма для животных.</p>
+                            <p class="price">Цена за килограмм: 90 рублей</p>
+                            <button class="btn" data-path="form-popup-4">Заказать</button>
+                           
+                          
+                          
+                            <div class="modals">
+                              <div class="modal-overlay">
+                                <div class="modal modal--4" data-target="form-popup-4">
+                                 
+                                        <form action="4">
+                                          <input type="text" placeholder="Ваше имя" >
+                                          <input type="text" placeholder="Ваш телефон">
+                                          <input type="text" placeholder="Ваш адрес" >
+                                          <input type="number" id="square-input" class="weight" >
+                                          <p>Цена за 1 кг: 90 рублей</p>
+                                          <button type="button" id="calculate_price">Рассчитать цену</button>
+                                          <p>Итого: <span id="total_price">0.00</span> рублей</p>
+                                          <button  type="button" id="pop_up_close_1">Заказать</button>
+                                        </form>
+                                </div>
+                                
+                              </div>
+                            </div>
+                    </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+          <div class="menu-2">
+            <ul class="menu-22">
+              
+              <li class="menu-li-2"><a href="index.html" class="menu-a-2">Главная</a></li>
+              <li class="menu-li-2"><a href="about.html" class="menu-a-2">О нас</a></li>
+              <li class="menu-li-2"><a href="products.html" class="menu-a-2">Продукция</a></li>
+              
+    
+                <li class="menu-li-2"><a href="contacts.html" class="menu-a-2">Контакты</a></li>
+              
+                  
+              
+            </ul>
+            <div class="kontakt">
+    
+              <p class="phone">
+                Телефон: 123-456-7890
+                
+                </p>
+              <p class="email">
+                Email: info@ecofarm.com
+                </p>
+              <p class="adres">
+                Московская область, Черноголовка, улица Академика Осипьяна
+            </div>
+    
+            </p>
+          </div>
+          <p class="prave">
+            © 2024 EcoFarm. Все права защищены.
+            
+            </p>
+        </div>
+      </footer>
+      
+<script type="text/JavaScript" src="JS\js-product.js"></script>  
+</body>
+</html>
